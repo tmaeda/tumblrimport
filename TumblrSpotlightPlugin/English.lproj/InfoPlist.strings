@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleShortVersionString = "1.0.2";
+CFBundleGetInfoString = "tumblrimport version 1.0.2, Copyright (c) 2009 tmaeda.";
+NSHumanReadableCopyright = "Copyright (c) 2009 tmaeda.";

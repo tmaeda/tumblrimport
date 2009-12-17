@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TumblrSpotlightPlugin' target in the 'TumblrSpotlightPlugin' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <RubyCocoa/RubyCocoa.h>
+#endif

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E25803AEB7C803A81C6F /* rb_main.rb */; };
+		4DDCA70A0ACC9A6100E082CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
+		A02C5B861077ACF600BF270B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02C5B651077ACF600BF270B /* InfoPlist.strings */; };
+		A02C5B871077ACF600BF270B /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02C5B671077ACF600BF270B /* schema.strings */; };
+		A02C5B881077ACF600BF270B /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B691077ACF600BF270B /* GetMetadataForFile.m */; };
+		A02C5B8A1077ACF600BF270B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B6B1077ACF600BF270B /* main.c */; };
+		A02C5B8B1077ACF600BF270B /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = A02C5B6C1077ACF600BF270B /* schema.xml */; };
+		A02C5B8C1077ACF600BF270B /* tumblrimport.rb in Resources */ = {isa = PBXBuildFile; fileRef = A02C5B6D1077ACF600BF270B /* tumblrimport.rb */; };
+		A02C5B8D1077ACF600BF270B /* tumblrimportLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B6E1077ACF600BF270B /* tumblrimportLoader.m */; };
+		A02C5E161077B3F800BF270B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02C5E151077B3F800BF270B /* CoreServices.framework */; };
+		A02C5E191077B40D00BF270B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02C5E181077B40D00BF270B /* CoreFoundation.framework */; };
+		A02C5E4B1077B73A00BF270B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A02C5E4C1077B73A00BF270B /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
+		A02C5E671077B7DE00BF270B /* TumblrSpotlightPlugin.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = A02C5B381077AAC400BF270B /* TumblrSpotlightPlugin.mdimporter */; };
+		A02C5E801077B9F200BF270B /* tumblr4r.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */; };
+		A040CE0010A7502D006941FC /* timer.rb in Resources */ = {isa = PBXBuildFile; fileRef = A040CDFE10A7502D006941FC /* timer.rb */; };
+		A0A52AB010B3099B0050D9BE /* try.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C0589E109DDBF800A30006 /* try.rb */; };
+		A0A82B98105FF30200407AC3 /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0A82B97105FF30200407AC3 /* AppController.rb */; };
+		A0A82BA2105FF49D00407AC3 /* tumblr4r.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */; };
+		A0BE3AF7105D078F00D23B02 /* TumblrImporter.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0BE3AF6105D078F00D23B02 /* TumblrImporter.rb */; };
+		A0C0589F109DDBF800A30006 /* try.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C0589E109DDBF800A30006 /* try.rb */; };
+		A0C22E8E1092C5CD00B9D6E3 /* Site.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C22E8D1092C5CD00B9D6E3 /* Site.rb */; };
+		A0C22E931093509600B9D6E3 /* migrate in Resources */ = {isa = PBXBuildFile; fileRef = A0C22E911093509600B9D6E3 /* migrate */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02C5B9B1077AF2400BF270B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02C5B371077AAC400BF270B;
+			remoteInfo = TumblrSpotlightPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A02C5E571077B7AB00BF270B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/Spotlight;
+			dstSubfolderSpec = 1;
+			files = (
+				A02C5E671077B7DE00BF270B /* TumblrSpotlightPlugin.mdimporter in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4DDCA7110ACC9A6100E082CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDCA7120ACC9A6100E082CE /* tumblrimport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblrimport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C5B381077AAC400BF270B /* TumblrSpotlightPlugin.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrSpotlightPlugin.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C5B661077ACF600BF270B /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02C5B681077ACF600BF270B /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/schema.strings; sourceTree = "<group>"; };
+		A02C5B691077ACF600BF270B /* GetMetadataForFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		A02C5B6A1077ACF600BF270B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02C5B6B1077ACF600BF270B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A02C5B6C1077ACF600BF270B /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
+		A02C5B6D1077ACF600BF270B /* tumblrimport.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tumblrimport.rb; sourceTree = "<group>"; };
+		A02C5B6E1077ACF600BF270B /* tumblrimportLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tumblrimportLoader.m; sourceTree = "<group>"; };
+		A02C5E151077B3F800BF270B /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		A02C5E181077B40D00BF270B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		A02C5E491077B71D00BF270B /* TumblrSpotlightPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrSpotlightPlugin_Prefix.pch; sourceTree = "<group>"; };
+		A040CDFE10A7502D006941FC /* timer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = timer.rb; path = lib/timer.rb; sourceTree = "<group>"; };
+		A0A82B97105FF30200407AC3 /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = AppController.rb; path = controllers/AppController.rb; sourceTree = "<group>"; };
+		A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tumblr4r.rb; sourceTree = "<group>"; };
+		A0BE3AF6105D078F00D23B02 /* TumblrImporter.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = TumblrImporter.rb; path = models/TumblrImporter.rb; sourceTree = "<group>"; };
+		A0C0589E109DDBF800A30006 /* try.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = try.rb; sourceTree = "<group>"; };
+		A0C22E8D1092C5CD00B9D6E3 /* Site.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Site.rb; path = models/Site.rb; sourceTree = "<group>"; };
+		A0C22E911093509600B9D6E3 /* migrate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = migrate; sourceTree = "<group>"; };
+		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
+		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DDCA70B0ACC9A6100E082CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */,
+				4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C5B361077AAC400BF270B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C5E161077B3F800BF270B /* CoreServices.framework in Frameworks */,
+				A02C5E191077B40D00BF270B /* CoreFoundation.framework in Frameworks */,
+				A02C5E4B1077B73A00BF270B /* Cocoa.framework in Frameworks */,
+				A02C5E4C1077B73A00BF270B /* RubyCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0C058AE109FC55E00A30006 /* controllers */,
+				A0C22E8C1092C59F00B9D6E3 /* models */,
+				A040CDFD10A7500E006941FC /* lib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCA7120ACC9A6100E082CE /* tumblrimport.app */,
+				A02C5B381077AAC400BF270B /* TumblrSpotlightPlugin.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* tumblrimport */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				A02C5B481077ACF600BF270B /* TumblrSpotlightPlugin */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4DDCA7110ACC9A6100E082CE /* Info.plist */,
+			);
+			name = tumblrimport;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				E8F5E25803AEB7C803A81C6F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0C22E911093509600B9D6E3 /* migrate */,
+				A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */,
+				A0C0589E109DDBF800A30006 /* try.rb */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02C5B481077ACF600BF270B /* TumblrSpotlightPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5B981077AEC200BF270B /* Classes */,
+				A02C5B991077AEC900BF270B /* Other Sources */,
+				A02C5B9A1077AED200BF270B /* Resources */,
+				A02C5DCB1077B00B00BF270B /* Frameworks and Libraries */,
+				A02C5B6A1077ACF600BF270B /* Info.plist */,
+			);
+			path = TumblrSpotlightPlugin;
+			sourceTree = "<group>";
+		};
+		A02C5B981077AEC200BF270B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5B6D1077ACF600BF270B /* tumblrimport.rb */,
+				A02C5B6E1077ACF600BF270B /* tumblrimportLoader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A02C5B991077AEC900BF270B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5B691077ACF600BF270B /* GetMetadataForFile.m */,
+				A02C5B6B1077ACF600BF270B /* main.c */,
+				A02C5E491077B71D00BF270B /* TumblrSpotlightPlugin_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A02C5B9A1077AED200BF270B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5B651077ACF600BF270B /* InfoPlist.strings */,
+				A02C5B671077ACF600BF270B /* schema.strings */,
+				A02C5B6C1077ACF600BF270B /* schema.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A02C5DCB1077B00B00BF270B /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5E181077B40D00BF270B /* CoreFoundation.framework */,
+				A02C5E151077B3F800BF270B /* CoreServices.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		A040CDFD10A7500E006941FC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A040CDFE10A7502D006941FC /* timer.rb */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A0C058AE109FC55E00A30006 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0A82B97105FF30200407AC3 /* AppController.rb */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		A0C22E8C1092C59F00B9D6E3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A0BE3AF6105D078F00D23B02 /* TumblrImporter.rb */,
+				A0C22E8D1092C5CD00B9D6E3 /* Site.rb */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DDCA7040ACC9A6100E082CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DDCA7030ACC9A6100E082CE /* tumblrimport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDCA70E0ACC9A6100E082CE /* Build configuration list for PBXNativeTarget "tumblrimport" */;
+			buildPhases = (
+				4DDCA7040ACC9A6100E082CE /* Headers */,
+				4DDCA7050ACC9A6100E082CE /* Resources */,
+				4DDCA7090ACC9A6100E082CE /* Sources */,
+				4DDCA70B0ACC9A6100E082CE /* Frameworks */,
+				A02C5E571077B7AB00BF270B /* CopyFiles */,
+				A0851E3610C15B88004E3C0F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02C5B9C1077AF2400BF270B /* PBXTargetDependency */,
+			);
+			name = tumblrimport;
+			productInstallPath = "$(HOME)/Applications";
+			productName = tumblrimport;
+			productReference = 4DDCA7120ACC9A6100E082CE /* tumblrimport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02C5B371077AAC400BF270B /* TumblrSpotlightPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02C5B3C1077AAC500BF270B /* Build configuration list for PBXNativeTarget "TumblrSpotlightPlugin" */;
+			buildPhases = (
+				A02C5B341077AAC400BF270B /* Resources */,
+				A02C5B351077AAC400BF270B /* Sources */,
+				A02C5B361077AAC400BF270B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TumblrSpotlightPlugin;
+			productName = TumblrSpotlightPlugin;
+			productReference = A02C5B381077AAC400BF270B /* TumblrSpotlightPlugin.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4D7A7B570ABF745500C2D4C0 /* Build configuration list for PBXProject "tumblrimport" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 0;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* tumblrimport */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DDCA7030ACC9A6100E082CE /* tumblrimport */,
+				A02C5B371077AAC400BF270B /* TumblrSpotlightPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DDCA7050ACC9A6100E082CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */,
+				4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */,
+				4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */,
+				A0BE3AF7105D078F00D23B02 /* TumblrImporter.rb in Resources */,
+				A0A82B98105FF30200407AC3 /* AppController.rb in Resources */,
+				A0A82BA2105FF49D00407AC3 /* tumblr4r.rb in Resources */,
+				A0C22E8E1092C5CD00B9D6E3 /* Site.rb in Resources */,
+				A0C22E931093509600B9D6E3 /* migrate in Resources */,
+				A0C0589F109DDBF800A30006 /* try.rb in Resources */,
+				A040CE0010A7502D006941FC /* timer.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C5B341077AAC400BF270B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C5E801077B9F200BF270B /* tumblr4r.rb in Resources */,
+				A02C5B861077ACF600BF270B /* InfoPlist.strings in Resources */,
+				A02C5B871077ACF600BF270B /* schema.strings in Resources */,
+				A02C5B8B1077ACF600BF270B /* schema.xml in Resources */,
+				A02C5B8C1077ACF600BF270B /* tumblrimport.rb in Resources */,
+				A0A52AB010B3099B0050D9BE /* try.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0851E3610C15B88004E3C0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"mv ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\"\nmv ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\n/usr/bin/ruby /Library/Frameworks/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb -d ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\necho \"cp -r /Library/Frameworks/RubyCocoa.framework ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\ncp -r /Library/Frameworks/RubyCocoa.framework ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DDCA7090ACC9A6100E082CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDCA70A0ACC9A6100E082CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C5B351077AAC400BF270B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C5B881077ACF600BF270B /* GetMetadataForFile.m in Sources */,
+				A02C5B8A1077ACF600BF270B /* main.c in Sources */,
+				A02C5B8D1077ACF600BF270B /* tumblrimportLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02C5B9C1077AF2400BF270B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02C5B371077AAC400BF270B /* TumblrSpotlightPlugin */;
+			targetProxy = A02C5B9B1077AF2400BF270B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		A02C5B651077ACF600BF270B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C5B661077ACF600BF270B /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A02C5B671077ACF600BF270B /* schema.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C5B681077ACF600BF270B /* English */,
+			);
+			name = schema.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7A7B580ABF745500C2D4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		4D7A7B590ABF745500C2D4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		4DDCA70F0ACC9A6100E082CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = tumblrimport;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4DDCA7100ACC9A6100E082CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = tumblrimport;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A02C5B3A1077AAC500BF270B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TumblrSpotlightPlugin/TumblrSpotlightPlugin_Prefix.pch;
+				INFOPLIST_FILE = TumblrSpotlightPlugin/Info.plist;
+				INSTALL_PATH = "@executable_path/../Library/Spotlight";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TumblrSpotlightPlugin;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		A02C5B3B1077AAC500BF270B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TumblrSpotlightPlugin/TumblrSpotlightPlugin_Prefix.pch;
+				INFOPLIST_FILE = TumblrSpotlightPlugin/Info.plist;
+				INSTALL_PATH = "@executable_path/../Library/Spotlight";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TumblrSpotlightPlugin;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = mdimporter;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7A7B570ABF745500C2D4C0 /* Build configuration list for PBXProject "tumblrimport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7A7B580ABF745500C2D4C0 /* Debug */,
+				4D7A7B590ABF745500C2D4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDCA70E0ACC9A6100E082CE /* Build configuration list for PBXNativeTarget "tumblrimport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDCA70F0ACC9A6100E082CE /* Debug */,
+				4DDCA7100ACC9A6100E082CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02C5B3C1077AAC500BF270B /* Build configuration list for PBXNativeTarget "TumblrSpotlightPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C5B3A1077AAC500BF270B /* Debug */,
+				A02C5B3B1077AAC500BF270B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
