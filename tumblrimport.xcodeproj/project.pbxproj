@@ -30,6 +30,7 @@
 		A0A52AB010B3099B0050D9BE /* try.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C0589E109DDBF800A30006 /* try.rb */; };
 		A0A82B98105FF30200407AC3 /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0A82B97105FF30200407AC3 /* AppController.rb */; };
 		A0A82BA2105FF49D00407AC3 /* tumblr4r.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */; };
+		A0ABEC8611270BEE00E53ADA /* RubyGems in Resources */ = {isa = PBXBuildFile; fileRef = A0ABE92C11270BEE00E53ADA /* RubyGems */; };
 		A0BE3AF7105D078F00D23B02 /* TumblrImporter.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0BE3AF6105D078F00D23B02 /* TumblrImporter.rb */; };
 		A0C0589F109DDBF800A30006 /* try.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C0589E109DDBF800A30006 /* try.rb */; };
 		A0C22E8E1092C5CD00B9D6E3 /* Site.rb in Resources */ = {isa = PBXBuildFile; fileRef = A0C22E8D1092C5CD00B9D6E3 /* Site.rb */; };
@@ -83,6 +84,7 @@
 		A040CDFE10A7502D006941FC /* timer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = timer.rb; path = lib/timer.rb; sourceTree = "<group>"; };
 		A0A82B97105FF30200407AC3 /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = AppController.rb; path = controllers/AppController.rb; sourceTree = "<group>"; };
 		A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tumblr4r.rb; sourceTree = "<group>"; };
+		A0ABE92C11270BEE00E53ADA /* RubyGems */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RubyGems; sourceTree = "<group>"; };
 		A0BE3AF6105D078F00D23B02 /* TumblrImporter.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = TumblrImporter.rb; path = models/TumblrImporter.rb; sourceTree = "<group>"; };
 		A0C0589E109DDBF800A30006 /* try.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = try.rb; sourceTree = "<group>"; };
 		A0C22E8D1092C5CD00B9D6E3 /* Site.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Site.rb; path = models/Site.rb; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A0ABE92C11270BEE00E53ADA /* RubyGems */,
 				A0C22E911093509600B9D6E3 /* migrate */,
 				A0A82BA1105FF49D00407AC3 /* tumblr4r.rb */,
 				A0C0589E109DDBF800A30006 /* try.rb */,
@@ -293,7 +296,6 @@
 				4DDCA7090ACC9A6100E082CE /* Sources */,
 				4DDCA70B0ACC9A6100E082CE /* Frameworks */,
 				A02C5E571077B7AB00BF270B /* CopyFiles */,
-				A0851E3610C15B88004E3C0F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -356,6 +358,7 @@
 				A0C22E931093509600B9D6E3 /* migrate in Resources */,
 				A0C0589F109DDBF800A30006 /* try.rb in Resources */,
 				A040CE0010A7502D006941FC /* timer.rb in Resources */,
+				A0ABEC8611270BEE00E53ADA /* RubyGems in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,22 +376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A0851E3610C15B88004E3C0F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"mv ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\"\nmv ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\n/usr/bin/ruby /Library/Frameworks/RubyCocoa.framework/Versions/A/Tools/standaloneify.rb -d ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME} ${CONFIGURATION_BUILD_DIR}/${WRAPPER_NAME}.orig\necho \"cp -r /Library/Frameworks/RubyCocoa.framework ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\ncp -r /Library/Frameworks/RubyCocoa.framework ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DDCA7090ACC9A6100E082CE /* Sources */ = {

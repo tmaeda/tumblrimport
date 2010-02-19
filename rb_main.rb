@@ -5,12 +5,20 @@
 #  Created by tmaeda on 09/09/13.
 #  Copyright (c) 2009 tmaeda. All rights reserved.
 #
-require 'osx/cocoa'
+
+# GEM_PATHを変更するほどには自前でgemを持ちたくないので、
+# 必要な場所にのみパスを通す
+COCOA_APP_RESOURCES_DIR = File.dirname(__FILE__)
+$LOAD_PATH.unshift(File.join(COCOA_APP_RESOURCES_DIR, "RubyGems", "gems", "activesupport-2.2.2", "lib"))
+$LOAD_PATH.unshift(File.join(COCOA_APP_RESOURCES_DIR, "RubyGems", "gems", "activerecord-2.2.2", "lib"))
+$LOAD_PATH.unshift(File.join(COCOA_APP_RESOURCES_DIR, "RubyGems", "gems", "yaml_waml-0.3.0", "lib"))
 require 'rubygems'
-gem 'activerecord', "2.2.2"
-require 'osx/active_record'
-require 'active_support'
+require 'activesupport'
+require 'activerecord'
+require 'logger'
 require 'yaml_waml'
+require 'osx/cocoa'
+require 'osx/active_record'
 
 #require 'ruby-debug'
 #Debugger.wait_connection = true
